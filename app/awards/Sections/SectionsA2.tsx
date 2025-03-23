@@ -71,7 +71,7 @@ const SectionsA2 = ({awardData}:SectionsA2prop) => {
                       <div className="sm:w-1/5  flex items-center ">
                         <Image
                           className="p-2.5 rounded-3xl md:h-[109px] md:w-[109px]  w-[104px] h-[104px] object-cover"
-                          src={`https://app.opmcinemas.com${data.attributes.ImageThumb.data[0].attributes.url}`}
+                          src={`${data.attributes.ImageThumb.data[0].attributes.url}`}
                           width={109}
                           height={109}
                         />

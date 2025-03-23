@@ -41,7 +41,7 @@ const FilmCards = ({ data,index }: propsFilmcard) => {
               <Image
                 src={`${data.attributes.CardImage.data.attributes.url}`}
                 alt="film image"
-                className="lg:rounded-[80px] object-cover md:min-w-[302px] max-w-[158px]  min-h-[119px] max-h-[92px] md:max-h-[400px] md:max-w-[440px] w-full h-full rounded-[20px]  duration-500 transform transition group-hover:scale-105"
+                className="lg:rounded-[80px] object-cover md:min-w-[302px] max-w-[158px]  min-h-[119px] max-h-[119px] md:max-h-[400px] md:max-w-[440px] w-full h-full rounded-[20px]  duration-500 transform transition group-hover:scale-105"
                 width={362}
                 height={119}
                 loading="eager"
@@ -49,7 +49,7 @@ const FilmCards = ({ data,index }: propsFilmcard) => {
             </Link>
           </div>
           <Link href={`/projects/${data.attributes.slug}`} className="md:hidden">
-            <div className=" flex items-center py-[33px] w-full h-auto md:hidden ">
+            <div className=" flex items-center justify-center  md:py-[33px] w-full h-full  md:hidden ">
               <div>
                 <div className="font-archive text-[18px] font-normal leading-[25.2px] text-white  ">
                   {data.attributes.Title}

@@ -97,12 +97,13 @@
 }
 
 
-.card-3{
-  scale:.8; opacity: 0;
-  animation: fade-in linear forwards;
-  animation-timeline: view();
-  animation-range: entry 200px;
-
+@media (min-width: 768px) {
+  .card-3{
+    scale:.8; opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry 200px;
+  }
 }
 
 @keyframes fade-in {
