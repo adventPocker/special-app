@@ -1,4 +1,3 @@
-import { PersonalApiResponse } from '../types';
 
 export const mockPersonalData: PersonalApiResponse = {
   data: {
