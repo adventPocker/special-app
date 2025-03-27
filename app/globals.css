@@ -4,7 +4,9 @@
 
 @import url('../public/WEB/css/clash-grotesk.css');
 @import url('../public/WEB/Archivo_Complete/Fonts/WEB/css/archivo.css');
+
 /* Define the radial gradient background */
+
 .gradient-border {
   background: radial-gradient(217.86% 1664.66% at 76.13% 98.96%, #FDB478 0%, #222831 100%);
 }

@@ -13,7 +13,13 @@ export async function getFilmData({
 }: {
   slugs: string;
 }): Promise<ApiFilmData> {
-  return mockFilmData;
+  // Filter the data based on the slug
+  const filteredData = {
+    data: mockFilmData.data.filter(film => film.attributes.slug === slugs),
+    meta: mockFilmData.meta
+  };
+  
+  return filteredData;
 }
 
 export async function getTopMedias(): Promise<ApiTopMedia> {
