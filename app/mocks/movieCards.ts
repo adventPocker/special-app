@@ -53,110 +53,110 @@ export const mockMovieCardData: ApiFilmCard = {
         }
       }
     },
-    {
-      id: 2,
-      attributes: {
-        Title: "Neelavelicham",
-        Year: "2023",
-        genere1: "Horror",
-        genere2: "Romance",
-        summary: "A young, enthusiastic and free-spirited writer stays in a desolate mansion, rumoured to be haunted by the apparition of a young woman who committed suicide when she was betrayed in love.",
-        FIlmContent: "A young, enthusiastic and free-spirited writer stays in a desolate mansion, rumoured to be haunted by the apparition of a young woman who committed suicide when she was betrayed in love.",
-        Rating: "9.0",
-        RunTime: "2h 30min",
-        ReleaseDate: "2024-05-20",
-        Country: "India",
-        Language: "Malayalam",
-        Distribution: "Stellar Pictures",
-        Co_Productions: false,
-        ProductionsCompany: "OPM Cinemas",
-        Sound_MIx: "DTS:X",
-        Aspect_Ratio: "1.85:1",
-        createdAt: "2024-02-01T00:00:00.000Z",
-        updatedAt: "2024-02-01T00:00:00.000Z",
-        publishedAt: "2024-02-01T00:00:00.000Z",
-        slug: "neelavelicham",
-        CardImage: {
-          data: {
-            id: 4,
-            attributes: {
-              name: "movie-poster-2",
-              url: "/movies/card-images/film-card-2.png",
-            }
-          }
-        },
-        ImgThumb: {
-          data: {
-            id: 5,
-            attributes: {
-              name: "movie-thumb-2",
-              url: "/movies/card-images/film-card-2.png",
-            }
-          }
-        },
-        TitleImage: {
-          data: {
-            id: 6,
-            attributes: {
-              name: "movie-title-2",
-              url: "/movies/card-images/film-card-2.png",
-            }
-          }
-        }
-      }
-    },
-    {
-      id: 3,
-      attributes: {
-        Title: "Naaradan",
-        Year: "2023",
-        genere1: "Thriller",
-        genere2: "Drama",
-        summary: "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
-        FIlmContent: "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
-        Rating: "8.8",
-        RunTime: "2h 29m",
-        ReleaseDate: "2024-07-10",
-        Country: "India",
-        Language: "Malayalam",
-        Distribution: "Rhythm Films",
-        Co_Productions: false,
-        ProductionsCompany: "OPM Cinemas",
-        Sound_MIx: "Dolby Atmos",
-        Aspect_Ratio: "2.39:1",
-        createdAt: "2024-03-01T00:00:00.000Z",
-        updatedAt: "2024-03-01T00:00:00.000Z",
-        publishedAt: "2024-03-01T00:00:00.000Z",
-        slug: "naaradan",
-        CardImage: {
-          data: {
-            id: 7,
-            attributes: {
-              name: "movie-poster-3",
-              url: "/movies/card-images/film-card-3.png",
-            }
-          }
-        },
-        ImgThumb: {
-          data: {
-            id: 8,
-            attributes: {
-              name: "movie-thumb-3",
-              url: "/movies/card-images/film-card-3.png",
-            }
-          }
-        },
-        TitleImage: {
-          data: {
-            id: 9,
-            attributes: {
-              name: "movie-title-3",
-              url: "/movies/card-images/film-card-3.png",
-            }
-          }
-        }
-      }
-    },
+    // {
+    //   id: 2,
+    //   attributes: {
+    //     Title: "Neelavelicham",
+    //     Year: "2023",
+    //     genere1: "Horror",
+    //     genere2: "Romance",
+    //     summary: "A young, enthusiastic and free-spirited writer stays in a desolate mansion, rumoured to be haunted by the apparition of a young woman who committed suicide when she was betrayed in love.",
+    //     FIlmContent: "A young, enthusiastic and free-spirited writer stays in a desolate mansion, rumoured to be haunted by the apparition of a young woman who committed suicide when she was betrayed in love.",
+    //     Rating: "9.0",
+    //     RunTime: "2h 30min",
+    //     ReleaseDate: "2024-05-20",
+    //     Country: "India",
+    //     Language: "Malayalam",
+    //     Distribution: "Stellar Pictures",
+    //     Co_Productions: false,
+    //     ProductionsCompany: "OPM Cinemas",
+    //     Sound_MIx: "DTS:X",
+    //     Aspect_Ratio: "1.85:1",
+    //     createdAt: "2024-02-01T00:00:00.000Z",
+    //     updatedAt: "2024-02-01T00:00:00.000Z",
+    //     publishedAt: "2024-02-01T00:00:00.000Z",
+    //     slug: "neelavelicham",
+    //     CardImage: {
+    //       data: {
+    //         id: 4,
+    //         attributes: {
+    //           name: "movie-poster-2",
+    //           url: "/movies/card-images/film-card-2.png",
+    //         }
+    //       }
+    //     },
+    //     ImgThumb: {
+    //       data: {
+    //         id: 5,
+    //         attributes: {
+    //           name: "movie-thumb-2",
+    //           url: "/movies/card-images/film-card-2.png",
+    //         }
+    //       }
+    //     },
+    //     TitleImage: {
+    //       data: {
+    //         id: 6,
+    //         attributes: {
+    //           name: "movie-title-2",
+    //           url: "/movies/card-images/film-card-2.png",
+    //         }
+    //       }
+    //     }
+    //   }
+    // },
+    // {
+    //   id: 3,
+    //   attributes: {
+    //     Title: "Naaradan",
+    //     Year: "2023",
+    //     genere1: "Thriller",
+    //     genere2: "Drama",
+    //     summary: "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
+    //     FIlmContent: "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
+    //     Rating: "8.8",
+    //     RunTime: "2h 29m",
+    //     ReleaseDate: "2024-07-10",
+    //     Country: "India",
+    //     Language: "Malayalam",
+    //     Distribution: "Rhythm Films",
+    //     Co_Productions: false,
+    //     ProductionsCompany: "OPM Cinemas",
+    //     Sound_MIx: "Dolby Atmos",
+    //     Aspect_Ratio: "2.39:1",
+    //     createdAt: "2024-03-01T00:00:00.000Z",
+    //     updatedAt: "2024-03-01T00:00:00.000Z",
+    //     publishedAt: "2024-03-01T00:00:00.000Z",
+    //     slug: "naaradan",
+    //     CardImage: {
+    //       data: {
+    //         id: 7,
+    //         attributes: {
+    //           name: "movie-poster-3",
+    //           url: "/movies/card-images/film-card-3.png",
+    //         }
+    //       }
+    //     },
+    //     ImgThumb: {
+    //       data: {
+    //         id: 8,
+    //         attributes: {
+    //           name: "movie-thumb-3",
+    //           url: "/movies/card-images/film-card-3.png",
+    //         }
+    //       }
+    //     },
+    //     TitleImage: {
+    //       data: {
+    //         id: 9,
+    //         attributes: {
+    //           name: "movie-title-3",
+    //           url: "/movies/card-images/film-card-3.png",
+    //         }
+    //       }
+    //     }
+    //   }
+    // },
     {
       id: 4,
       attributes: {
@@ -469,58 +469,58 @@ export const mockMovieCardData: ApiFilmCard = {
         }
       }
     },
-    {
-      id: 10,
-      attributes: {
-        Title: "Aarkkariyam",
-        Year: "2021",
-        genere1: "Drama",
-        genere2: "Mystery",
-        summary: "During the COVID-19 lockdown, Roy and Shirley travel to Kerala to stay with Shirley's father, a retired math teacher. As they spend time together, dark secrets from the past begin to surface.",
-        FIlmContent: "During the COVID-19 lockdown, Roy and Shirley travel to Kerala to stay with Shirley's father, a retired math teacher. As they spend time together, dark secrets from the past begin to surface.",
-        Rating: "7.5",
-        RunTime: "2h 21min",
-        ReleaseDate: "2021-04-15",
-        Country: "India",
-        Language: "Malayalam",
-        Distribution: "Amazon Prime Video",
-        Co_Productions: true,
-        ProductionsCompany: "OPM Cinemas",
-        Sound_MIx: "Dolby Digital",
-        Aspect_Ratio: "2.39:1",
-        createdAt: "2024-10-01T00:00:00.000Z",
-        updatedAt: "2024-10-01T00:00:00.000Z",
-        publishedAt: "2024-10-01T00:00:00.000Z",
-        slug: "aarkkariyam",
-        CardImage: {
-          data: {
-            id: 28,
-            attributes: {
-              name: "movie-poster-10",
-              url: "/movies/card-images/film-card-11.png",
-            }
-          }
-        },
-        ImgThumb: {
-          data: {
-            id: 29,
-            attributes: {
-              name: "movie-thumb-10",
-              url: "/movies/card-images/film-card-11.png",
-            }
-          }
-        },
-        TitleImage: {
-          data: {
-            id: 30,
-            attributes: {
-              name: "movie-title-10",
-              url: "/movies/card-images/film-card-11.png",
-            }
-          }
-        }
-      }
-    },
+    // {
+    //   id: 10,
+    //   attributes: {
+    //     Title: "Aarkkariyam",
+    //     Year: "2021",
+    //     genere1: "Drama",
+    //     genere2: "Mystery",
+    //     summary: "During the COVID-19 lockdown, Roy and Shirley travel to Kerala to stay with Shirley's father, a retired math teacher. As they spend time together, dark secrets from the past begin to surface.",
+    //     FIlmContent: "During the COVID-19 lockdown, Roy and Shirley travel to Kerala to stay with Shirley's father, a retired math teacher. As they spend time together, dark secrets from the past begin to surface.",
+    //     Rating: "7.5",
+    //     RunTime: "2h 21min",
+    //     ReleaseDate: "2021-04-15",
+    //     Country: "India",
+    //     Language: "Malayalam",
+    //     Distribution: "Amazon Prime Video",
+    //     Co_Productions: true,
+    //     ProductionsCompany: "OPM Cinemas",
+    //     Sound_MIx: "Dolby Digital",
+    //     Aspect_Ratio: "2.39:1",
+    //     createdAt: "2024-10-01T00:00:00.000Z",
+    //     updatedAt: "2024-10-01T00:00:00.000Z",
+    //     publishedAt: "2024-10-01T00:00:00.000Z",
+    //     slug: "aarkkariyam",
+    //     CardImage: {
+    //       data: {
+    //         id: 28,
+    //         attributes: {
+    //           name: "movie-poster-10",
+    //           url: "/movies/card-images/film-card-11.png",
+    //         }
+    //       }
+    //     },
+    //     ImgThumb: {
+    //       data: {
+    //         id: 29,
+    //         attributes: {
+    //           name: "movie-thumb-10",
+    //           url: "/movies/card-images/film-card-11.png",
+    //         }
+    //       }
+    //     },
+    //     TitleImage: {
+    //       data: {
+    //         id: 30,
+    //         attributes: {
+    //           name: "movie-title-10",
+    //           url: "/movies/card-images/film-card-11.png",
+    //         }
+    //       }
+    //     }
+    //   }
+    // },
     {
       id: 10,
       attributes: {
