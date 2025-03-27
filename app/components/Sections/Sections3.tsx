@@ -40,6 +40,7 @@ const Sections3 = () => {
             </div>
             <div className="sm:hidden  ">
               <SliderMobile moviewData ={movieData?.data}/>
+              
             </div>
           </div>
           <div className="hidden md:flex justify-between items-center m-auto px-[121px]  ">

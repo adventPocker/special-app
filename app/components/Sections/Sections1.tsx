@@ -48,7 +48,10 @@ const Sections1 = () => {
                           className="lg:w-[399px] w-auto  text-opacity-70 md:text-base  font-archivo-regular md:leading-[22.4px]  text-center md:text-left  text-[12px] font-normal  "
                           style={{ color: "rgba(255, 255, 255, 0.7)" }}
                         >
-                         OPM Cinemas is a powerhouse in the film industry, delivering compelling stories and unforgettable visual experiences. Our productions feature top-tier talents, visionary directors, and cutting-edge storytelling.
+                          OPM Cinemas is a powerhouse in the film industry,
+                          delivering compelling stories and unforgettable visual
+                          experiences. Our productions feature top-tier talents,
+                          visionary directors, and cutting-edge storytelling.
                         </div>
                       </div>
                       <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
@@ -100,7 +103,10 @@ const Sections1 = () => {
                           className="lg:w-[399px] w-auto  text-opacity-70 md:text-base  font-archivo-regular md:leading-[22.4px]  text-center md:text-left  text-[12px] font-normal  "
                           style={{ color: "rgba(255, 255, 255, 0.7)" }}
                         >
-                          OPM Records is a premier media production house, founded by acclaimed director Aashiq Abu. From movies to commercials and corporate films, we create audio-visual excellence.
+                          OPM Records is a premier media production house,
+                          founded by acclaimed director Aashiq Abu. From movies
+                          to commercials and corporate films, we create
+                          audio-visual excellence.
                         </div>
                       </div>
                       <div className="flex gap-8">
@@ -182,29 +188,33 @@ const Sections1 = () => {
                           className="lg:w-[399px] w-auto  text-opacity-70 md:text-base  font-archivo-regular md:leading-[22.4px]  text-center md:text-left  text-[12px] font-normal  "
                           style={{ color: "rgba(255, 255, 255, 0.7)" }}
                         >
-OPM Distributions ensures that great films reach the right audiences. We handle theatrical releases, streaming partnerships, and international film distribution.                      </div>
-                      <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
-                        <img
-                          src="/Image/arrow.png"
-                          alt="icon"
-                          className="md:w-6 md:h-6 h-[14px] w-[14px]"
-                        />
-                        <div
-                          className="md:text-[19px] md:font-medium font-archivo-regular capitalize leading-[22.4px] text-base font-normal  "
-                          style={{
-                            background:
-                              "linear-gradient(238.7deg, #FFDAA9 31.09%, #FDB478 83.44%)",
-                            WebkitBackgroundClip: "text",
-                            color: "transparent",
-                          }}
-                        >
-                          Filmography
+                          OPM Distributions ensures that great films reach the
+                          right audiences. We handle theatrical releases,
+                          streaming partnerships, and international film
+                          distribution.{" "}
+                        </div>
+                        <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
+                          <img
+                            src="/Image/arrow.png"
+                            alt="icon"
+                            className="md:w-6 md:h-6 h-[14px] w-[14px]"
+                          />
+                          <div
+                            className="md:text-[19px] md:font-medium font-archivo-regular capitalize leading-[22.4px] text-base font-normal  "
+                            style={{
+                              background:
+                                "linear-gradient(238.7deg, #FFDAA9 31.09%, #FDB478 83.44%)",
+                              WebkitBackgroundClip: "text",
+                              color: "transparent",
+                            }}
+                          >
+                            Filmography
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
               </div>
               <div className="lg:rounded-[80px] rounded-[40px]  duration-500  transform transition border-2 border-transparent   hover:border-white">
                 <div
@@ -235,7 +245,10 @@ OPM Distributions ensures that great films reach the right audiences. We handle 
                           className="lg:w-[399px] w-auto  text-opacity-70 md:text-base  font-archivo-regular md:leading-[22.4px]  text-center md:text-left  text-[12px] font-normal  "
                           style={{ color: "rgba(255, 255, 255, 0.7)" }}
                         >
-                         OPM Studios is a creative hub producing films, ads, and branded content. Founded by industry experts, we focus on high-quality storytelling and innovative production techniques.
+                          OPM Studios is a creative hub producing films, ads,
+                          and branded content. Founded by industry experts, we
+                          focus on high-quality storytelling and innovative
+                          production techniques.
                         </div>
                       </div>
                       <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
@@ -260,7 +273,6 @@ OPM Distributions ensures that great films reach the right audiences. We handle 
                   </div>
                 </div>
               </div>
-       
             </div>
           </div>
 
@@ -268,7 +280,6 @@ OPM Distributions ensures that great films reach the right audiences. We handle 
             <img src="/Image/Line.png" alt="line" className="w-full h-[1px]" />
           </div>
         </div>
-     
       </div>
     </>
   );

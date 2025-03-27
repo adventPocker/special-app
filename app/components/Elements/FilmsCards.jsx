@@ -7,22 +7,22 @@ const FilmsCards = ({ data }) => {
       <div className="w-full h-full ">
         <div className="w-full h-full md:py-20 pt-6 pb-8">
           <div
-            className=" w-full h-full md:rounded-[80px] rounded-[40px] md:p-10 p-6  "
+            className=" w-full h-full md:rounded-[80px] rounded-[30px] md:p-10 p-6  "
             style={{
               background:
                 "linear-gradient(238.7deg, #FFDAA9 31.09%, #FDB478 83.44%)",
               color: "#000000",
             }}
           >
-            <div className="md:flex md:gap-20 md:justify-start  md:min-h-[214px]">
+            <div className="md:flex md:gap-20 md:justify-start  md:min-h-[214px] ">
               <div className=" h-full ">
-                <div className="relative flex items-center justify-center md:rounded-[80px] rounded-[40px] object-cover o w-full h-full min-h-[214px] max-h-[214.813px]  min-w-[274px] md:min-w-[440px] md:min-h-[400px] overflow-hidden ">
+                <div className="relative flex items-center justify-center md:rounded-[80px]  rounded-[20px] object-cover o w-full h-full min-h-[214px] max-h-[214.813px]  min-w-[274px] md:min-w-[440px] md:min-h-[400px] overflow-hidden ">
                   {data ? (
                     <Link href={`/projects/${data?.attributes.slug}`}>
                       <Image
                         src={`${data?.attributes.CardImage.data.attributes.url}`}
                         alt=""
-                        className=" md:rounded-[80px] rounded-[40px] object-cover min-h-[214px] max-h-[214.813px]  min-w-[274px] w-full h-full md:min-w-[440px] md:max-w-[440px] md:min-h-[400px] duration-500 transform transition hover:scale-110"
+                        className=" md:rounded-[80px] rounded-[20px] object-cover min-h-[214px] max-h-[214.813px] min-w-[440px] md:max-w-[440px] md:min-h-[400px] duration-500 transform transition hover:scale-110"
                         height={214}
                         loading="eager"
                         width={274}
@@ -77,7 +77,7 @@ const FilmsCards = ({ data }) => {
                     />{" "}
                   </div>
                 </div>
-                <div className="md:flex hidden gap-6 mt-7 items-center">
+                <div className="lg:flex hidden gap-6 mt-7 items-center">
                   <a
                     href={`${data?.attributes.Trailer_url}`}
                     target="_blank"

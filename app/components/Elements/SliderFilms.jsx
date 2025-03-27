@@ -7,6 +7,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import FilmsCards from "./FilmsCards";
 import SwiperCore from "swiper";
 import Link from "next/link";
+import Image from "next/image";
 
 const SliderFilms = ({ moviewData }) => {
   const sliderRef = useRef(null);
@@ -44,14 +45,14 @@ const SliderFilms = ({ moviewData }) => {
             onClick={handlePrev}
             className="py-2 px-5 rounded-2xl gradient-button  "
           >
-            <img src="/Image/arrow-2.svg" className="w-[22px] h-[22px] " />
+            <Image src="/Image/arrow-2.svg" width={22} height={22} alt="arrow-2" className="w-[22px] h-[22px] " />
           </div>
           <div
             style={{ border: "0.50px #FFDAA9 solid" }}
             onClick={handleNext}
             className="py-2 px-5 rounded-2xl gradient-button  "
           >
-            <img src="/Image/arrow-3.svg" className="w-[22px] h-[22px] " />
+            <Image src="/Image/arrow-3.svg" width={22} height={22} alt="arrow-3" className="w-[22px] h-[22px] " />
           </div>
         </div>
         <Link href={"/projects"}>
@@ -64,11 +65,7 @@ const SliderFilms = ({ moviewData }) => {
             <div className="text-orange-200 text-[23px] font-normal font-archivo-regular leading-[26.6px]">
               Full Filmography
             </div>
-            <img
-              src="/Image/arrow-3.svg"
-              alt=""
-              className="w-[22px] h-[22px] "
-            />
+            <Image src="/Image/arrow-3.svg" width={22} height={22} alt="arrow-3" className="w-[22px] h-[22px] " />
           </div>
         </Link>
       </div>
