@@ -118,14 +118,14 @@ const Sections2 = () => {
             >
               {movieData?.data.map((data: CardFilm, index: number) => (
                 <SwiperSlide key={index} className="flex justify-center">
-                  <div className="movie-slide-container bg-black/5 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:bg-black/10">
+                  <div className="movie-slide-container  backdrop-blur-sm rounded-lg p-4 transition-all duration-3000">
                     <button
                       onClick={() => router.push(`/projects/${data.attributes.slug}`)}
                       type="button"
                       className="w-full h-full flex items-center justify-center"
                     >
                       <Image
-                        className="w-auto max-h-[120px] object-contain transition-transform duration-500 ease-in-out hover:scale-110"
+                        className="w-auto max-h-[120px] object-contain transition-transform duration-500 ease-in-out hover:scale-125"
                         src={`${data?.attributes.TitleImage.data.attributes.url}`}
                         alt={data?.attributes.slug || "Movie title"}
                         width={180}
