@@ -15,7 +15,7 @@ const FilmCard = ({ data }: filmcardProps) => {
       >
         <div>
           <img
-            src={`https://app.opmcinemas.com${data.Image.data.attributes.url}`}
+            src={`${data.Image.data.attributes.url}`}
             alt=""
             className="object-cover  md:max-w-[206px] md:w-full w-auto md:min-w-[206px] min-h-[206px] h-[206] max-h-[206px] rounded-e-[24px]"
           />

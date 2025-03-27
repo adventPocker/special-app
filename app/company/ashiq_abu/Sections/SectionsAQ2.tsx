@@ -13,7 +13,7 @@ const SectionsAQ2 = ({ biography, imgSrc }: SectionsAQ2props) => {
             <div className="lg:flex justify-normal lg:gap-14 w-full h-full">
               <div>
                 <Image
-                  src={`https://app.opmcinemas.com${imgSrc}`}
+                  src={`${imgSrc}`}
                   alt=""
                   loading="lazy"
                   className="md:max-w-[460px] md:w-[460px] h-full md:h-[445px] max-h-[445px] bg-zinc-300 rounded-3xl object-cover"
