@@ -97,7 +97,7 @@ const Hero = () => {
                     variants={variantsText}
                     className="font-ClashGrotesk-Medium text-[31px]  md:text-5xl font-medium  md:leading-[57.60px] leading-9 tracking-normal text-left text-orange-200"
                   >
-                    Where Every Frame
+                    Where Every Frame 
                     <br className="hidden md:block" />
                     Tells a Story
                   </motion.div>
@@ -107,11 +107,7 @@ const Hero = () => {
                     variants={variantsText}
                     className="md:max-w-[569px] w-fulll text-white text-opacity-70 md:text-[19px] md:font-normal font-archivo-regular mt-[3.9vh] text-left text-[16px] font-light md:leading-[26px] leading-[22.4px] tracking-wide"
                   >
-                    At OPM Cinemas, we don't just produce movies – we craft
-                    experiences that linger in the hearts and minds of our
-                    audience. Led by the visionary filmmaker Aashiq Abu, we are
-                    more than a production house; we are storytellers, dreamers,
-                    and creators of cinematic magic.
+                    Welcome to OPM Cinemas, a creative powerhouse shaping the future of storytelling under the leadership of filmmaker Aashiq Abu since its inception in October 2012.  We collaborate with visionary artists, writers, and technicians to bring authentic narratives to life. Our projects are rooted in culture, yet global in appeal, making a lasting impression on audiences.
                   </motion.div>
                   <motion.div
                     initial="initial"

@@ -92,7 +92,7 @@ export const SectionsC2 = () => {
               <div className="w-full h-full  md:relative">
                 <Image
                   src={Profile}
-                  alt=""
+                  alt="ashiq abu profile image"
                   width={1000}
                   height={1000}
                    loading="eager"

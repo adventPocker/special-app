@@ -1,5 +1,6 @@
 import React from "react";
 import StudioCard from "../Element/StudioCard";
+import OurVentures from "../Element/OurVentures";
 const SectionsC4 = () => {
   return (
     <>
@@ -18,11 +19,8 @@ const SectionsC4 = () => {
             >
               Our Ventures
             </div>
-            <div className="grid md:grid-cols-3 gap-[50px] md:mt-[78px] mt-[38px]">
-
-            <StudioCard/>
-            <StudioCard/>
-            <StudioCard/>
+            <div className=" md:mt-[78px] mt-[38px]">
+              <OurVentures/>  
             </div>
           </div>{" "}
         </div>
